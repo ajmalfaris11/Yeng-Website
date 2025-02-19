@@ -664,11 +664,15 @@ div#demo {
 /*--contact--*/
 .contact{
 	padding: 3.3em 0 4em 0;
-	background: #134E5E;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #134E5E; 
+	background: linear-gradient(to right, rgb(23, 56, 78), #134E5E); 
 	
 }
+
+.textbox {
+ border-radius: 14px;
+}
+
 .contact h3{
 	text-align: center;
 	font-size: 2.7em;
@@ -718,11 +722,11 @@ p.comment-form-author {
 	resize: none;
 	height: 200px;
 	font-family: 'Open Sans', sans-serif;
+	border-radius: 16px;
 }
 .contact-form input[type="submit"]{
 	padding: 0.6em 2em;
 	text-decoration: none;
-	border: 2px solid #1E494C;
 	margin-top: 1em;
 	display: inline-block;
 	font-family: 'Open Sans', sans-serif;
@@ -735,13 +739,15 @@ p.comment-form-author {
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
-	border-radius: 0.4em;
+	border-radius: 14px;
 	-moz-border-radius: 0.4em;
 	-o-border-radius: 0.4em;
-	background: #ffffff;
+	background: #398D95;
 	font-weight: 700;
 	width:37%;
 	outline: none;
+	color: white;
+	border: white;
 }
 .contact-form input[type="submit"]:hover{
 	background: none;
