@@ -165,6 +165,7 @@ nav a#pull {
 	flex-flow: row nowrap;
 	color: #fff;
 	margin: 2% 0 2% 0;
+	border-radius: 20px;
 	
 }
 .team-tile div{
@@ -187,6 +188,7 @@ nav a#pull {
 .join-btn{
 	font-weight: 700;
 	border: none;
+	border-radius: 20px;
 }
 
 .design{
