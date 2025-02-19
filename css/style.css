@@ -803,9 +803,10 @@ p.comment-form-author {
 	.top-nav ul li a {padding: 0px 0.2em;color:#ffffff;}
 	.logo {margin-top: 1.2em;}
 	.banner {
-		background: url(../images/bg.jpg) no-repeat 0px 0px;
+		background: url(https://i.pinimg.com/1200x/0c/c8/cc/0cc8cc910f55994bb077b3ab0774a2d2.jpg) no-repeat 0px 0px;
 		background-size: cover;
 		min-height: 594px;
+		background-position: center;
 	}
 	.gallery-head p {
 		margin: 0.9em auto;
