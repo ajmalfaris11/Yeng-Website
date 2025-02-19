@@ -153,7 +153,8 @@ nav a#pull {
 .Feature-content h2{
 	display: inline;
 	padding: 3% 5%;
-	border: 3px solid #fff; 
+	border: 2.5px solid #fff; 
+	border-radius: 14px;
 }
 .team-tile{
 	background: #80CBC4;
@@ -332,10 +333,9 @@ nav a#pull {
 }
 /******************/
 #feature {
-	background: #1D976C;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #0b8198;  /* fallback for old browsers */
 	padding:3em 0 0em 0em;
+	border-radius: 40px;
 }
 .test-monials h3{
 	text-align: center;
